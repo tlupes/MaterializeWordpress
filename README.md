@@ -1,4 +1,4 @@
-# [Materialize Wordpress
+# Materialize Wordpress
 
 A clean wordpress theme based on the excelent [Materialize](http://materializecss.com/) css library
 
