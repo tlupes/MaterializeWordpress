@@ -1,0 +1,240 @@
+/*Comment Output*/
+
+.commentlist .reply {}
+.commentlist .reply a {}
+
+.commentlist .alt {}
+.commentlist .odd {}
+.commentlist .even {}
+.commentlist .thread-alt {}
+.commentlist .thread-odd {}
+.commentlist .thread-even {}
+.commentlist li ul.children .alt {}
+.commentlist li ul.children .odd {}
+.commentlist li ul.children .even {}
+
+.commentlist .vcard {}
+.commentlist .vcard cite.fn {}
+.commentlist .vcard span.says {}
+.commentlist .vcard img.photo {}
+.commentlist .vcard img.avatar {}
+.commentlist .vcard cite.fn a.url {}
+
+.commentlist .comment-meta {} 
+.commentlist .comment-meta a {}
+.commentlist .commentmetadata {}
+.commentlist .commentmetadata a {}
+
+.commentlist .parent {}
+.commentlist .comment {}
+.commentlist .children {}
+.commentlist .pingback {}
+.commentlist .bypostauthor {}
+.comment-author 
+{
+	font-size: 13px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+ul .children
+{
+	padding: 4 4 4 20;
+	border-radius: 3px;
+    border: 1px solid rgb(230, 230, 230) !important;
+}
+
+ul .children,
+.children .children .children,
+.children .children .children .children .children,
+.children .children .children .children .children .children .children
+{
+	background: rgba(127,127,127,0.1);
+}
+
+.children .children,
+.children .children .children .children,
+.children .children .children .children .children .children
+{
+	background: white;
+}
+
+.comment-author a
+{
+	color: grey;
+	font-size: 10px;
+}
+
+.comment-body .reply a
+{
+	color: grey;
+	font-size: 10px;
+}
+
+.comment-author .avatar
+{
+}
+
+.comment-author .says
+{
+}
+
+.commentlist .comment-author-admin 
+{
+
+}
+
+.commentlist {}
+.commentlist li {}
+.commentlist li p {}
+.commentlist li ul {}
+.commentlist li ul.children li {}
+.commentlist li ul.children li.alt {}
+.commentlist li ul.children li.byuser {}
+.commentlist li ul.children li.comment {}
+.commentlist li ul.children li.depth-{id} {}
+.commentlist li ul.children li.bypostauthor {}
+.commentlist li ul.children li.comment-author-admin {}
+
+#cancel-comment-reply {}
+#cancel-comment-reply a {}
+
+#reply-title 
+{
+	line-height: 48px;
+    font-size: 24px;
+    font-weight: 300; 
+}
+
+@media only screen and (max-width: 992px) {
+  .center-on-med-and-down {
+    text-align: center;
+  }
+}
+
+#UserDisplayForm label { display: block; }
+#searchBar div { }
+
+.post ol
+{
+	counter-reset: li;
+    list-style: none;
+    padding: 0;
+}
+
+.post ol li
+{
+	position: relative;
+    display: block;
+    padding: .4em .8em .4em 2em;
+    margin: .5em .5em .5em 0;
+    background: #fdfdfd;
+    color: #444;
+    text-decoration: none;
+    border-radius: 0;
+    border: 1px solid rgba(0,0,0,.1);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.post ol li:before
+{
+	content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    margin-top: -1.3em;
+    top: 25%;
+    background: #f78793;
+    height: 2em;
+    color: #fff;
+    width: 2em;
+    line-height: 1.5em;
+    border: .3em solid #F6F6F6;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+    font-size: 12px;
+}
+
+.post ul
+{
+	padding: 0 0 0 40;
+}
+
+.post ul li
+{
+	list-style-type: initial;
+}
+
+.sidebar-widget h3
+{
+	line-height: 48px;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.input-field
+{
+	margin-top: 1rem !important;
+}
+
+.down-on-scroll {
+    transition: bottom 0.2s;
+}
+
+.nav-down {
+    bottom: -50% !important;
+}
+
+.nav-up {
+    top: -50% !important;
+}
+
+.small-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: top 0.2s;
+}
+
+.small-header .search-button {
+    color: rgba(255, 255, 255, 0.7);
+    height: 32px;
+    line-height: 32px;
+    font-size: 32px;
+}
+
+.post p {
+    padding-bottom: 20px
+}
+
+.pickgradient {
+  display:inline-block;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  height: 50%;
+  width: 100%;
+  top: 50%;
+  position: absolute;
+}
+
+.card-image-loop {
+    height: 300px;
+    overflow: hidden;
+}

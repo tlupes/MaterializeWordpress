@@ -1,0 +1,50 @@
+/* Header */
+ 
+header#masthead {
+background: #2196f3;
+color: #fff;
+}
+ 
+header#masthead a {
+	color: #fff;
+}
+ 
+/* Navigation */
+ 
+.nav {
+color: #fff;
+background-color: #64b5f6;
+width: 100%;
+height: 56px;
+line-height: 56px;
+overflow: hidden;
+}
+ 
+nav ul li:hover, nav ul li.active {
+background-color: #1976d2;
+}
+
+/* Content */
+ 
+.card .card-title, .card .card-title a {
+	color: #1976d2;
+} 
+ 
+.card a:hover {
+  color: #64b5f6; 
+}
+ 
+.card-action {
+background: #e3f2fd;
+}
+ 
+.card a {
+  color: #039be5;
+  margin-right: 0;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+}
