@@ -1,5 +1,5 @@
 <!-- search -->
-<nav style="margin-top: 8px">
+<nav style="margin-top: 8px;" class="custom-color">
 	<div class="nav-wrapper">
 	  <form id="searchBar" class="search" method="get" action="<?php echo home_url(); ?>" role="search">
 	    <div class="input-field" style="width:100%;">

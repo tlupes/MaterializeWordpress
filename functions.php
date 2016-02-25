@@ -357,6 +357,7 @@ add_action('init', 'register_html5_menu'); // Add HTML5 Blank Menu
 add_action('init', 'create_post_type_html5'); // Add our HTML5 Blank Custom Post Type
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
 add_action('init', 'html5wp_pagination'); // Add our HTML5 Pagination
+add_action('customize_register', 'materialize_customize');
 
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds
@@ -440,6 +441,19 @@ function create_post_type_html5()
             'category'
         ) // Add Category and Post Tags support
     ));
+}
+
+function materialize_customize($wp_customize)
+{
+    $wp_customize->add_setting( 'primary_color' , array(
+        'default'     => '#ee6e73',
+        'transport'   => 'refresh',
+    ) );
+    $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'link_color', array(
+        'label'        => __( 'Primary Color', 'html5blank' ),
+        'section'    => 'title_tagline',
+        'settings'   => 'primary_color',
+    ) ) );
 }
 
 /*------------------------------------*\

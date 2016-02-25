@@ -235,6 +235,18 @@ ul .children,
 }
 
 .card-image-loop {
-    height: 300px;
+    max-height: 300px;
     overflow: hidden;
+}
+
+.user-page-user-info .avatar
+{
+    float:left;
+}
+
+.user-page-user-info .user-name
+{
+    line-height: 48px;
+    font-size: 24px;
+    font-weight: 300; 
 }

@@ -20,7 +20,7 @@ get_header(); ?>
 					<!-- /section -->
 				</main>
 			</div>
-			<div class="col m12 l4">
+			<div class="col s12 m12 l4">
 				<?php get_sidebar(); ?>
 			</div>
 			<div class="col s12">
@@ -30,7 +30,7 @@ get_header(); ?>
 
 		<?php if (is_user_logged_in()): ?>
 		<div class="fixed-action-btn down-on-scroll" style="bottom: 45px; right: 24px;z-index:11">
-			<a class="btn-floating btn-large waves-effect waves-light red" href="/wp-admin/post-new.php" id="newPost"><i class="mdi-content-add"></i></a>
+			<a class="btn-floating btn-large waves-effect waves-light custom-color" href="/wp-admin/post-new.php" id="newPost"><i class="mdi-content-add"></i></a>
 		</div>
 		<?php endif ?>
 

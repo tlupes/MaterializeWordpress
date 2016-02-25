@@ -62,7 +62,7 @@
 				<!-- /section -->
 				</main>
 			</div>
-			<div class="col m12 l4">
+			<div class="col s12 m12 l4">
 				<div class="card">
 					<div class="card-content">
 						<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span><br>

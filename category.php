@@ -17,7 +17,7 @@
 					<!-- /section -->
 				</main>
 			</div>
-			<div class="col m12 l4">
+			<div class="col s12 m12 l4">
 				<?php get_sidebar(); ?>
 			</div>
 			<div class="col s12">
